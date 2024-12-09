@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "image": "/images/restaurant1.jpg",
+        "title": "Trattoria dall’Oste",
+        "subtitle": "Via Luigi Alamanni, 3, 50123 Firenze",
+        "rating": 4.5,
+        "buttonText": "Visit"
+    },
+    {
+        "id": 2,
+        "image": "/images/restaurant1.jpg",
+        "title": "La Pergola",
+        "subtitle": "Rome, Italy",
+        "rating": 5,
+        "buttonText": "Reserve"
+    }
+]

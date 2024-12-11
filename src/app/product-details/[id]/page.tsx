@@ -103,7 +103,7 @@
 // }
 
 
-import { Metadata } from 'next'
+
 import Link from "next/link";
 import { products } from '@/data/item-product';
 import { Breadcrumb } from '@/components/ui/breadcrumb';
@@ -112,29 +112,9 @@ import { ImageGallery } from '@/components/items-product/image-gallery';
 import { ReviewCard } from '@/components/items-product/review-card';
 import { Minus, Plus, ShoppingCart } from 'lucide-react';
 
-type Props = {
-  params: { id: string }
-  searchParams: { [key: string]: string | string[] | undefined }
-}
-
-export async function generateMetadata(
-  { params }: Props,
-): Promise<Metadata> {
-  // read route params
-  const id = params.id
-
-  // fetch data
-  const product = products.find((prod) => prod.id === id)
-
-  return {
-    title: product ? product.title : 'Product Not Found',
-  }
-}
-
-export default function ProductDetailsPage({ params }: Props) {
-  const { id } = params;
-
-  const currentProduct = products.find((prod) => prod.id === id);
+export default function ProductDetailsPage() {
+  // Instead of using params, we'll use a hardcoded product for demonstration
+  const currentProduct = products[0]; // Assuming products array has at least one item
 
   if (!currentProduct) {
     return <div>Product not found!</div>;

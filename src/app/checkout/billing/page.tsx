@@ -36,7 +36,7 @@ export default function BillingPage() {
 
     const [selectedPaymentMethod, setSelectedPaymentMethod] = useState('cod')
     const [isModalOpen, setIsModalOpen] = useState(false) // Modal state for success message
-    const [isFormValid, setIsFormValid] = useState(true) // State to track form validation
+    const [setIsFormValid] = useState(true) // State to track form validation
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
         const { name, value } = e.target

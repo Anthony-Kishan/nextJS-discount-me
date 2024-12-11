@@ -9,8 +9,8 @@ import { ItemProductSection } from '@/components/items-product/item-product-sect
 
 const restaurantImages = [
     '/images/restaurant-page/carousel-images/villagio1.svg',
-    '/images/restaurant-page/carousel-images/villagio1.svg',
-    '/images/restaurant-page/carousel-images/villagio1.svg',
+    '/images/restaurant-page/carousel-images/villagio2.svg',
+    '/images/restaurant-page/carousel-images/villagio3.svg',
 ];
 
 export default function RestaurantPage() {

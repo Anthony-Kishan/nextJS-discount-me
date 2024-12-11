@@ -15,7 +15,7 @@ export const restaurants: Restaurant[] = [
         rating: 4.5,
         address: 'Via Luigi Alamanni, 3, 50123 Firenze',
         description: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you're dining, seafood can be truly exceptional.",
-        imageUrl: '/images/home-restaurant/restaurant1.svg'
+        imageUrl: '/images/home-restaurant/restaurant2.svg'
     },
     {
         id: '3',
@@ -23,7 +23,7 @@ export const restaurants: Restaurant[] = [
         rating: 4.5,
         address: 'Via Luigi Alamanni, 3, 50123 Firenze',
         description: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you're dining, seafood can be truly exceptional.",
-        imageUrl: '/images/home-restaurant/restaurant1.svg'
+        imageUrl: '/images/home-restaurant/restaurant3.svg'
     },
     {
         id: '4',
@@ -31,7 +31,7 @@ export const restaurants: Restaurant[] = [
         rating: 4.5,
         address: 'Via Luigi Alamanni, 3, 50123 Firenze',
         description: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you're dining, seafood can be truly exceptional.",
-        imageUrl: '/images/home-restaurant/restaurant1.svg'
+        imageUrl: '/images/home-restaurant/restaurant5.svg'
     },
     {
         id: '5',
@@ -47,7 +47,7 @@ export const restaurants: Restaurant[] = [
         rating: 4.5,
         address: 'Via Luigi Alamanni, 3, 50123 Firenze',
         description: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you're dining, seafood can be truly exceptional.",
-        imageUrl: '/images/home-restaurant/restaurant1.svg'
+        imageUrl: '/images/home-restaurant/restaurant3.svg'
     },
     {
         id: '7',
@@ -63,7 +63,7 @@ export const restaurants: Restaurant[] = [
         rating: 4.5,
         address: 'Via Luigi Alamanni, 3, 50123 Firenze',
         description: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you're dining, seafood can be truly exceptional.",
-        imageUrl: '/images/home-restaurant/restaurant1.svg'
+        imageUrl: '/images/home-restaurant/restaurant5.svg'
     },
     {
         id: '9',
@@ -71,7 +71,7 @@ export const restaurants: Restaurant[] = [
         rating: 4.5,
         address: 'Via Luigi Alamanni, 3, 50123 Firenze',
         description: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you're dining, seafood can be truly exceptional.",
-        imageUrl: '/images/home-restaurant/restaurant1.svg'
+        imageUrl: '/images/home-restaurant/restaurant4.svg'
     },
     {
         id: '10',
@@ -87,7 +87,7 @@ export const restaurants: Restaurant[] = [
         rating: 4.5,
         address: 'Via Luigi Alamanni, 3, 50123 Firenze',
         description: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you're dining, seafood can be truly exceptional.",
-        imageUrl: '/images/home-restaurant/restaurant1.svg'
+        imageUrl: '/images/home-restaurant/restaurant4.svg'
     },
     {
         id: '12',
@@ -95,6 +95,6 @@ export const restaurants: Restaurant[] = [
         rating: 4.5,
         address: 'Via Luigi Alamanni, 3, 50123 Firenze',
         description: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you're dining, seafood can be truly exceptional.",
-        imageUrl: '/images/home-restaurant/restaurant1.svg'
+        imageUrl: '/images/home-restaurant/restaurant2.svg'
     }
 ]

@@ -15,7 +15,7 @@ export const products: Product[] = [
     stock: 'In Stock',
     rating: 4.5,
     reviewCount: 10,
-    images: ['/images/restaurant-page/item-product/tshirt.svg', '/products/freezer-2.jpg', '/products/freezer-3.jpg'],
+    images: ['/images/restaurant-page/item-product/tshirt.svg', '/images/restaurant-page/item-product/tshirt.svg', '/images/restaurant-page/item-product/tshirt.svg'],
     reviews: [
       {
         id: '1',
@@ -39,16 +39,16 @@ export const products: Product[] = [
 
   {
     id: '2',
-    title: 'Long Sleeve T-Shirt',
+    title: 'Crazy Toys',
     description: 'Delicious tacos, appetizing...',
-    price: 45.5,
-    image: '/images/restaurant-page/item-product/tshirt.svg',
+    price: 25.5,
+    image: '/images/restaurant-page/item-product/toys.svg',
     category: 'clothing',
     colors: ['turquoise', 'black', 'navy', 'lavender', 'red', 'olive'],
     stock: 'In Stock',
     rating: 4.5,
     reviewCount: 10,
-    images: ['/images/restaurant-page/item-product/tshirt.svg', '/products/freezer-2.jpg', '/products/freezer-3.jpg'],
+    images: ['/images/restaurant-page/item-product/toys.svg', '/images/restaurant-page/item-product/toys.svg', '/images/restaurant-page/item-product/toys.svg'],
     reviews: [
       {
         id: '1',
@@ -73,16 +73,16 @@ export const products: Product[] = [
 
   {
     id: '3',
-    title: 'Long Sleeve T-Shirt',
+    title: 'Crazy Tacko',
     description: 'Delicious tacos, appetizing...',
-    price: 45.5,
-    image: '/images/restaurant-page/item-product/tshirt.svg',
+    price: 30,
+    image: '/images/restaurant-page/item-product/crazy-tracko.svg',
     category: 'clothing',
     colors: ['turquoise', 'black', 'navy', 'lavender', 'red', 'olive'],
     stock: 'In Stock',
     rating: 4.5,
     reviewCount: 10,
-    images: ['/images/restaurant-page/item-product/tshirt.svg', '/products/freezer-2.jpg', '/products/freezer-3.jpg'],
+    images: ['/images/restaurant-page/item-product/crazy-tracko.svg', '/images/restaurant-page/item-product/crazy-tracko.svg', '/images/restaurant-page/item-product/crazy-tracko.svg'],
     reviews: [
       {
         id: '1',
@@ -107,16 +107,16 @@ export const products: Product[] = [
 
   {
     id: '4',
-    title: 'Long Sleeve T-Shirt',
+    title: 'Crazy Toys',
     description: 'Delicious tacos, appetizing...',
     price: 45.5,
-    image: '/images/restaurant-page/item-product/tshirt.svg',
+    image: '/images/restaurant-page/item-product/toys.svg',
     category: 'clothing',
     colors: ['turquoise', 'black', 'navy', 'lavender', 'red', 'olive'],
     stock: 'In Stock',
     rating: 4.5,
     reviewCount: 10,
-    images: ['/images/restaurant-page/item-product/tshirt.svg', '/products/freezer-2.jpg', '/products/freezer-3.jpg'],
+    images: ['/images/restaurant-page/item-product/toys.svg', '/images/restaurant-page/item-product/toys.svg', '/images/restaurant-page/item-product/toys.svg'],
     reviews: [
       {
         id: '1',
@@ -173,16 +173,16 @@ export const products: Product[] = [
 
   {
     id: '6',
-    title: 'Long Sleeve T-Shirt',
+    title: 'Crazy Tracko',
     description: 'Delicious tacos, appetizing...',
     price: 45.5,
-    image: '/images/restaurant-page/item-product/tshirt.svg',
+    image: '/images/restaurant-page/item-product/crazy-tracko.svg',
     category: 'clothing',
     colors: ['turquoise', 'black', 'navy', 'lavender', 'red', 'olive'],
     stock: 'In Stock',
     rating: 4.5,
     reviewCount: 10,
-    images: ['/images/restaurant-page/item-product/tshirt.svg', '/products/freezer-2.jpg', '/products/freezer-3.jpg'],
+    images: ['/images/restaurant-page/item-product/crazy-tracko.svg', '/images/restaurant-page/item-product/crazy-tracko.svg', '/images/restaurant-page/item-product/crazy-tracko.svg'],
     reviews: [
       {
         id: '1',
@@ -206,10 +206,10 @@ export const products: Product[] = [
 
   {
     id: '7',
-    title: 'Long Sleeve T-Shirt',
+    title: 'Books',
     description: 'Delicious tacos, appetizing...',
-    price: 45.5,
-    image: '/images/restaurant-page/item-product/tshirt.svg',
+    price: 126.5,
+    image: '/images/restaurant-page/item-product/books.svg',
     category: 'clothing',
     colors: ['turquoise', 'black', 'navy', 'lavender', 'red', 'olive'],
     stock: 'In Stock',
@@ -239,10 +239,10 @@ export const products: Product[] = [
 
   {
     id: '8',
-    title: 'Long Sleeve T-Shirt',
+    title: 'Toys',
     description: 'Delicious tacos, appetizing...',
     price: 45.5,
-    image: '/images/restaurant-page/item-product/tshirt.svg',
+    image: '/images/restaurant-page/item-product/toys.svg',
     category: 'clothing',
     colors: ['turquoise', 'black', 'navy', 'lavender', 'red', 'olive'],
     stock: 'In Stock',

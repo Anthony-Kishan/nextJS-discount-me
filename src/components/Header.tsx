@@ -42,7 +42,7 @@ export function Header() {
                 <div className="flex items-center justify-between gap-4">
                     {/* Logo */}
                     <Link href="/" className="flex-shrink-0">
-                        <Image src="/logo.png" alt="Logo" width={150} height={50} />
+                        <Image src="/logo.png" alt="Logo" width={120} height={40} className="w-auto h-auto" />
                     </Link>
 
                     {/* Mobile Menu Button */}

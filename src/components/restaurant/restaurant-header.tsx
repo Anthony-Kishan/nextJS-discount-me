@@ -10,7 +10,6 @@ interface RestaurantHeaderProps {
 }
 
 export function RestaurantHeader({
-    name,
     address,
     rating,
     onMenuToggle, // Destructure onMenuToggle

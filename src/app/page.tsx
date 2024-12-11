@@ -47,7 +47,7 @@ export default function Home() {
         </section>
 
         {/* FEATURE CARDS SECTION */}
-        <section className="container mx-auto px-20 py-12 ">
+        <section className="container mx-auto px-4 lg:px-20 py-12 ">
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 bg-white rounded-xl shadow-sm">
             <FeatureCard
               icon={<Package className="w-6 h-6" />}
@@ -72,27 +72,12 @@ export default function Home() {
           </div>
         </section>
 
-        {/* EXPLORE RESTAURANTS SECTION */}
-        {/* <section className="container mx-auto px-4 py-12 relative">
-          <div className="flex items-center justify-between mb-4">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl leading-tight">
-              Explore <span className="text-[#FF7D29]">Restaurants</span>
-            </h1>
-            <Link href="/explore-restaurants" className="text-black text-lg items-center text-center flex">See All <ChevronRight /></Link>
-          </div>
-
-          <p className="text-lg sm:text-xl text-gray-600 mb-12 max-w-lg">
-            Check your city Near by <br></br> Restaurant
-          </p>
-          <RestaurantGrid restaurants={restaurants} />
-        </section> */}
-
         <section className="container mx-auto px-4 py-12 relative">
           <div className="flex items-center justify-between mb-4">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl leading-tight">
+            <h1 className="text-2xl sm:text-4xl md:text-5xl leading-tight">
               Explore <span className="text-[#FF7D29]">Restaurants</span>
             </h1>
-            <Link href="/explore-restaurants" className="text-black text-lg items-center text-center flex">See All <ChevronRight /></Link>
+            <Link href="/explore-restaurants" className="text-black text-lg sm:text-sm items-center float-right flex ">See All <ChevronRight /></Link>
           </div>
 
           <p className="text-lg sm:text-xl text-gray-600 mb-12 max-w-lg">

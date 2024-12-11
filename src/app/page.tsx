@@ -9,7 +9,6 @@ import { ProductGrid } from '@/components/product-grid';
 import { products } from '@/data/product';
 // import { ExploreRestaurants } from '@/app/explore-restaurants/page';
 
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -138,4 +137,3 @@ function FeatureCard({
     </div>
   )
 }
-

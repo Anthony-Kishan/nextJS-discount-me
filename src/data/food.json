@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "image": "/images/food1.jpg",
+        "title": "Lasagna",
+        "price": "$15"
+    },
+    {
+        "id": 2,
+        "image": "/images/food1.jpg",
+        "title": "Pizza",
+        "price": "$12"
+    }
+]

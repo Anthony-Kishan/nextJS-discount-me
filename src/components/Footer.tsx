@@ -21,8 +21,7 @@ export function Footer() {
               <Input
                 type="email"
                 placeholder="Type your email address"
-                className="bg-[#2C2C2C] border-gray-700 text-white placeholder:text-gray-500 focus-visible:ring-[#FF7A00] rounded-3xl"
-              />
+                className="bg-transparent border-white text-white placeholder:text-gray-500 focus-visible:ring-[#fff]" style={{ borderRadius: '50px' }}/>
               <Button
                 type="submit"
                 className="bg-white text-black rounded-3xl sm:w-auto w-full"
@@ -85,7 +84,7 @@ export function Footer() {
             <div className="flex flex-col items-start gap-4">
               <div className="bg-white p-2 rounded-lg">
                 <Image
-                  src="/placeholder.svg"
+                  src="/qr-code.png"
                   alt="QR Code"
                   width={100}
                   height={100}
@@ -99,7 +98,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src="/placeholder.svg"
+                    src="/google-play-badge.svg"
                     alt="Get it on Google Play"
                     width={135}
                     height={40}
@@ -112,7 +111,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src="/placeholder.svg"
+                    src="/app-store-badge.svg"
                     alt="Download on the App Store"
                     width={135}
                     height={40}

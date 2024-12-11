@@ -17,6 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+
+      <head>
+        <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+      </head>
+
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col">
           <Header />
@@ -28,5 +33,6 @@ export default function RootLayout({
       </body>
     </html>
   )
+};
 }
 

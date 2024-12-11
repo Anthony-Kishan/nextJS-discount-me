@@ -126,9 +126,7 @@ export function Header() {
 
             {/* Mobile Menu */}
             <div
-                className={`fixed top-0 left-0 w-full bg-white border-t border-gray-200 shadow-lg overflow-hidden transition-all duration-700 ease-in-out ${isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
-                    }`}
-            >
+                className={`fixed top-0 left-0 w-full bg-white border-t border-gray-200 shadow-lg overflow-hidden transition-all duration-700 ease-in-out ${isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"} z-[9999]`}>
                 {/* Close Button */}
                 <div className="flex justify-end p-4">
                     <button

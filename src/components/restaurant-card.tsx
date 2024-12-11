@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from 'next/image'
 import { Star, MapPin } from 'lucide-react'
 import type { Restaurant } from '@/types/restaurant'
@@ -35,9 +36,9 @@ export function RestaurantCard({ restaurant }: RestaurantCardProps) {
                         Read More...
                     </button>
                 </p>
-                <button className="w-full py-3 px-4 bg-[#00B047] text-white rounded-lg hover:bg-[#009f40] transition-colors">
+                <Link href="/restaurant" className="w-full py-3 px-4 bg-[#00B047] text-white rounded-lg hover:bg-[#009f40] transition-colors block mt-4 text-center">
                     Visit
-                </button>
+                </Link>
             </div>
         </div>
     )

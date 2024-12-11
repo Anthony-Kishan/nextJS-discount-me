@@ -1,7 +1,7 @@
 // data/item-product.ts
 
 import type { Product } from '@/types/item-product';
-import type { Review } from '@/types/item-product';
+// import type { Review } from '@/types/item-product';
 
 export const products: Product[] = [
   {

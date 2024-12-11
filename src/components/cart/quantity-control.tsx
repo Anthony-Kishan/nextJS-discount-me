@@ -8,7 +8,7 @@ interface QuantityControlProps {
 
 export function QuantityControl({ quantity, onIncrease, onDecrease }: QuantityControlProps) {
     return (
-        <div className="flex items-center rounded-lg border border-gray-200">
+        <div className="flex items-center rounded-full border border-gray-200">
             <button
                 onClick={onDecrease}
                 className="p-2 hover:text-[#FF7A00] disabled:opacity-50"

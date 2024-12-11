@@ -10,17 +10,17 @@ import type { CartItem as CartItemType, PaymentMethod } from '@/types/cart'
 const initialItems: CartItemType[] = [
     {
         id: '1',
-        name: 'Freezer',
+        name: 'Books',
         price: 14.00,
         quantity: 5,
-        image: '/products/freezer.jpg',
+        image: '/images/restaurant-page/item-product/books.svg',
     },
     {
         id: '2',
-        name: 'TV',
+        name: 'Toys',
         price: 14.00,
         quantity: 1,
-        image: '/products/tv.jpg',
+        image: '/images/restaurant-page/item-product/toys.svg',
     },
 ]
 
@@ -54,14 +54,13 @@ export default function CartPage() {
 
     return (
         <div className="min-h-screen bg-gray-50">
+            <Breadcrumb
+                items={[
+                    { label: 'Home', href: '/' },
+                    { label: 'Cart', href: '/cart' },
+                ]}
+            />
             <div className="container mx-auto px-4 py-8">
-                <Breadcrumb
-                    items={[
-                        { label: 'Home', href: '/' },
-                        { label: 'Cart', href: '/cart' },
-                    ]}
-                />
-
                 <h1 className="text-3xl font-bold mt-8 mb-6">My Shopping Cart</h1>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

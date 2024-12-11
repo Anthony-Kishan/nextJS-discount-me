@@ -11,7 +11,7 @@ interface CartItemProps {
 
 export function CartItem({ item, onUpdateQuantity, onRemove }: CartItemProps) {
     return (
-        <div className="grid grid-cols-12 gap-4 py-4 items-center">
+        <div className="grid grid-cols-12 gap-4 py-4 px-4 items-center">
             <div className="col-span-6 md:col-span-4 flex items-center gap-4">
                 <div className="relative w-20 h-20">
                     <Image
@@ -43,9 +43,9 @@ export function CartItem({ item, onUpdateQuantity, onRemove }: CartItemProps) {
             <div className="col-span-1 text-right">
                 <button
                     onClick={() => onRemove(item.id)}
-                    className="p-2 hover:text-red-500"
+                    className="py-2  hover:text-red-500"
                 >
-                    <X className="h-5 w-5" />
+                    <X className="h-5 w-5 mr-2" />
                 </button>
             </div>
         </div>

@@ -16,13 +16,14 @@ export default function ProductDetailsPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Breadcrumb
+        items={[
+          { label: 'Categories', href: '/categories' },
+          { label: 'Details', href: '#' },
+        ]}
+      />
       <div className="container mx-auto px-4 py-8">
-        <Breadcrumb
-          items={[
-            { label: 'Categories', href: '/categories' },
-            { label: 'Details', href: '#' },
-          ]}
-        />
+
 
         <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
           <ImageGallery images={currentProduct.images} />

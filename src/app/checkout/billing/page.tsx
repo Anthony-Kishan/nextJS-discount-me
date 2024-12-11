@@ -86,13 +86,14 @@ export default function BillingPage() {
 
     return (
         <div className="min-h-screen bg-gray-50">
+            <Breadcrumb
+                items={[
+                    { label: 'Cart', href: '/cart' },
+                    { label: 'Billing', href: '/checkout/billing' },
+                ]}
+            />
             <div className="container mx-auto px-4 py-8">
-                <Breadcrumb
-                    items={[
-                        { label: 'Cart', href: '/cart' },
-                        { label: 'Billing', href: '/checkout/billing' },
-                    ]}
-                />
+
 
                 <h1 className="text-3xl font-bold mt-8 mb-6">Billing Information</h1>
 

@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-// import Link from 'next/link'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
@@ -31,7 +30,7 @@ export default function CreateAccountPage() {
     })
 
     const [errors, setErrors] = useState<FormErrors>({})
-    const [isLoading, setIsLoading] = useState(false)
+    // const [setIsLoading] = useState(false)
 
     const validateForm = (): boolean => {
         const newErrors: FormErrors = {}
@@ -67,7 +66,7 @@ export default function CreateAccountPage() {
 
         if (!validateForm()) return
 
-        setIsLoading(true)
+        // setIsLoading(true)
         try {
             // Here you would typically make an API call to create the account
             await new Promise(resolve => setTimeout(resolve, 1000)) // Simulate API call
@@ -76,7 +75,7 @@ export default function CreateAccountPage() {
         } catch (error) {
             console.error('Error creating account:', error)
         } finally {
-            setIsLoading(false)
+            // setIsLoading(false)
         }
     }
 

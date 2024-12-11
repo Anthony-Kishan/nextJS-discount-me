@@ -1,7 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { Home, ChevronRight } from 'lucide-react'
-import { div } from 'framer-motion/client';
 
 interface BreadcrumbItem {
     label: string

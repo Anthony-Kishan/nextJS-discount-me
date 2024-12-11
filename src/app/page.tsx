@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </section>
 
-{/* FEATURE CARDS SECTION */}
+        {/* FEATURE CARDS SECTION */}
         <section className="container mx-auto px-20 py-12 ">
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 bg-white rounded-xl shadow-sm">
             <FeatureCard
@@ -87,7 +87,7 @@ export default function Home() {
           <RestaurantGrid restaurants={restaurants} />
         </section> */}
 
-<section className="container mx-auto px-4 py-12 relative">
+        <section className="container mx-auto px-4 py-12 relative">
           <div className="flex items-center justify-between mb-4">
             <h1 className="text-3xl sm:text-4xl md:text-5xl leading-tight">
               Explore <span className="text-[#FF7D29]">Restaurants</span>
@@ -115,24 +115,25 @@ export default function Home() {
     </div>
   )
 
-function FeatureCard({
-  icon,
-  title,
-  description,
-}: {
-  icon: React.ReactNode
-  title: string
-  description: string
-}) {
-  return (
-    <div className="flex items-start gap-4">
-      <div className="">
-        {icon}
+  function FeatureCard({
+    icon,
+    title,
+    description,
+  }: {
+    icon: React.ReactNode
+    title: string
+    description: string
+  }) {
+    return (
+      <div className="flex items-start gap-4">
+        <div className="">
+          {icon}
+        </div>
+        <div>
+          <h3 className="font-semibold text-lg">{title}</h3>
+          <p className="text-gray-500 text-sm">{description}</p>
+        </div>
       </div>
-      <div>
-        <h3 className="font-semibold text-lg">{title}</h3>
-        <p className="text-gray-500 text-sm">{description}</p>
-      </div>
-    </div>
-  )
+    )
+  }
 }

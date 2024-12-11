@@ -1,5 +1,5 @@
 "use client";
-import { MapPin, Menu, X } from 'lucide-react'
+import { MapPin, Menu } from 'lucide-react'
 import { Rating } from '@/components/ui/rating'
 
 interface RestaurantHeaderProps {
@@ -10,7 +10,6 @@ interface RestaurantHeaderProps {
 }
 
 export function RestaurantHeader({
-    name,
     address,
     rating,
     onMenuToggle, // Destructure onMenuToggle

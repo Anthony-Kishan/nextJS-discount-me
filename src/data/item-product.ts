@@ -76,13 +76,13 @@ export const products: Product[] = [
     title: 'Crazy Tacko',
     description: 'Delicious tacos, appetizing...',
     price: 30,
-    image: '/images/restaurant-page/item-product/crazy-tracko.svg',
+    image: '/images/restaurant-page/item-product/Crazy-tracko.svg',
     category: 'clothing',
     colors: ['turquoise', 'black', 'navy', 'lavender', 'red', 'olive'],
     stock: 'In Stock',
     rating: 4.5,
     reviewCount: 10,
-    images: ['/images/restaurant-page/item-product/crazy-tracko.svg', '/images/restaurant-page/item-product/crazy-tracko.svg', '/images/restaurant-page/item-product/crazy-tracko.svg'],
+    images: ['/images/restaurant-page/item-product/Crazy-tracko.svg', '/images/restaurant-page/item-product/Crazy-tracko.svg', '/images/restaurant-page/item-product/Crazy-tracko.svg'],
     reviews: [
       {
         id: '1',
@@ -176,13 +176,13 @@ export const products: Product[] = [
     title: 'Crazy Tracko',
     description: 'Delicious tacos, appetizing...',
     price: 45.5,
-    image: '/images/restaurant-page/item-product/crazy-tracko.svg',
+    image: '/images/restaurant-page/item-product/Crazy-tracko.svg',
     category: 'clothing',
     colors: ['turquoise', 'black', 'navy', 'lavender', 'red', 'olive'],
     stock: 'In Stock',
     rating: 4.5,
     reviewCount: 10,
-    images: ['/images/restaurant-page/item-product/crazy-tracko.svg', '/images/restaurant-page/item-product/crazy-tracko.svg', '/images/restaurant-page/item-product/crazy-tracko.svg'],
+    images: ['/images/restaurant-page/item-product/Crazy-tracko.svg', '/images/restaurant-page/item-product/Crazy-tracko.svg', '/images/restaurant-page/item-product/Crazy-tracko.svg'],
     reviews: [
       {
         id: '1',

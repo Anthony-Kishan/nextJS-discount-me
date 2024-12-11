@@ -118,7 +118,7 @@ type Props = {
 }
 
 export async function generateMetadata(
-  { params, searchParams }: Props,
+  { params }: Props,
 ): Promise<Metadata> {
   // read route params
   const id = params.id

@@ -103,6 +103,7 @@
 // }
 
 
+import { Metadata } from 'next'
 import Link from "next/link";
 import { products } from '@/data/item-product';
 import { Breadcrumb } from '@/components/ui/breadcrumb';
@@ -111,11 +112,26 @@ import { ImageGallery } from '@/components/items-product/image-gallery';
 import { ReviewCard } from '@/components/items-product/review-card';
 import { Minus, Plus, ShoppingCart } from 'lucide-react';
 
-interface ProductDetailsPageProps {
-  params: { id: string };
+type Props = {
+  params: { id: string }
+  searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export default function ProductDetailsPage({ params }: ProductDetailsPageProps) {
+export async function generateMetadata(
+  { params, searchParams }: Props,
+): Promise<Metadata> {
+  // read route params
+  const id = params.id
+
+  // fetch data
+  const product = products.find((prod) => prod.id === id)
+
+  return {
+    title: product ? product.title : 'Product Not Found',
+  }
+}
+
+export default function ProductDetailsPage({ params }: Props) {
   const { id } = params;
 
   const currentProduct = products.find((prod) => prod.id === id);
@@ -167,7 +183,7 @@ export default function ProductDetailsPage({ params }: ProductDetailsPageProps) 
                 </button>
                 <input
                   type="number"
-                  value="5"
+                  defaultValue="5"
                   className="w-16 border-x border-gray-300 p-2 text-center"
                   readOnly
                 />
